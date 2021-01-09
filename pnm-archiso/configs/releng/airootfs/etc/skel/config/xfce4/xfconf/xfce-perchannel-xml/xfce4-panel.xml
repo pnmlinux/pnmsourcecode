@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="2"/>
+    <property name="dark-mode" type="bool" value="false"/>
+    <property name="panel-2" type="empty">
+      <property name="position" type="string" value="p=6;x=720;y=15"/>
+      <property name="size" type="uint" value="28"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="2"/>
+        <value type="int" value="6"/>
+        <value type="int" value="3"/>
+        <value type="int" value="1"/>
+        <value type="int" value="11"/>
+        <value type="int" value="8"/>
+        <value type="int" value="10"/>
+        <value type="int" value="12"/>
+        <value type="int" value="9"/>
+        <value type="int" value="14"/>
+        <value type="int" value="13"/>
+        <value type="int" value="5"/>
+        <value type="int" value="7"/>
+        <value type="int" value="4"/>
+      </property>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.990000"/>
+        <value type="double" value="0.990000"/>
+        <value type="double" value="0.990000"/>
+        <value type="double" value="0.195035"/>
+      </property>
+      <property name="icon-size" type="uint" value="0"/>
+      <property name="nrows" type="uint" value="1"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="string" value="appmenu">
+      <property name="plugins" type="empty">
+        <property name="plugin-1" type="empty">
+          <property name="compact-mode" type="bool" value="false"/>
+          <property name="bold-application-name" type="bool" value="true"/>
+          <property name="expand" type="bool" value="true"/>
+        </property>
+      </property>
+    </property>
+    <property name="plugin-2" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-4" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-5" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-6" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16089735131.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-7" type="string" value="actions">
+      <property name="appearance" type="uint" value="0"/>
+      <property name="items" type="array">
+        <value type="string" value="-lock-screen"/>
+        <value type="string" value="-switch-user"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="-suspend"/>
+        <value type="string" value="-hibernate"/>
+        <value type="string" value="-hybrid-sleep"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="-shutdown"/>
+        <value type="string" value="-restart"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="+logout"/>
+        <value type="string" value="-logout-dialog"/>
+      </property>
+    </property>
+    <property name="plugin-8" type="string" value="notification-plugin"/>
+    <property name="plugin-9" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="chromium.instance10013;chromium.instance1003;chromium.instance1030;chromium.instance1065;chromium.instance1091;chromium.instance1268;chromium.instance1402;chromium.instance1485;chromium.instance1517;chromium.instance16396;chromium.instance1813;chromium.instance19131;chromium.instance30996;chromium.instance48479;chromium.instance64225;chromium.instance762;chromium.instance782;chromium.instance798;chromium.instance799;chromium.instance808;chromium.instance811;chromium.instance816;chromium.instance837;chromium.instance859;chromium.instance865;chromium.instance895;chromium.instance915;chromium.instance9170;Gwenview;Gwenview.instance28530;Gwenview.instance5795;rhythmbox"/>
+    </property>
+    <property name="plugin-10" type="string" value="systray">
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="anydesk"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="synapse"/>
+        <value type="string" value="pamac-tray"/>
+        <value type="string" value="networkmanager programcığı"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="droidcam"/>
+        <value type="string" value="synapse"/>
+        <value type="string" value="Green Recorder"/>
+        <value type="string" value="TelegramDesktop"/>
+        <value type="string" value="chrome_status_icon_1"/>
+        <value type="string" value="discord1"/>
+      </property>
+      <property name="hidden-items" type="array">
+        <value type="string" value="synapse"/>
+      </property>
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="hide-new-items" type="bool" value="false"/>
+      <property name="single-row" type="bool" value="false"/>
+      <property name="icon-size" type="int" value="0"/>
+      <property name="hidden-legacy-items" type="array">
+        <value type="string" value="synapse"/>
+      </property>
+      <property name="menu-is-primary" type="bool" value="false"/>
+      <property name="symbolic-icons" type="bool" value="false"/>
+    </property>
+    <property name="plugin-11" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="true"/>
+    </property>
+    <property name="plugin-12" type="string" value="separator">
+      <property name="expand" type="bool" value="false"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-13" type="string" value="clock"/>
+    <property name="plugin-14" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16089814701.desktop"/>
+      </property>
+    </property>
+  </property>
+</channel>

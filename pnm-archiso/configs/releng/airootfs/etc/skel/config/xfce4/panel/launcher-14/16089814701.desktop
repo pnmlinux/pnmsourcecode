@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name[tr]=Synapse
+Name=Synapse
+Comment[tr]=Yapılan her şeyi ara
+Comment=Search everything you do.
+Exec=synapse
+Icon=folder-saved-search
+Categories=GNOME;Utility;
+X-XFCE-Source=file:///usr/share/applications/synapse.desktop
+Path=
+Terminal=false
+StartupNotify=true

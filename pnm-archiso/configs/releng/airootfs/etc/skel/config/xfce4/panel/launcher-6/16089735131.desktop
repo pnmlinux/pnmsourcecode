@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=panther
+Comment=panther
+Exec=panther_launcher
+Icon=folder-apple
+Path=
+Terminal=false
+StartupNotify=true
