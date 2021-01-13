@@ -9,7 +9,6 @@
       <property name="position" type="string" value="p=6;x=720;y=15"/>
       <property name="size" type="uint" value="28"/>
       <property name="plugin-ids" type="array">
-        <value type="int" value="2"/>
         <value type="int" value="6"/>
         <value type="int" value="3"/>
         <value type="int" value="1"/>
@@ -18,10 +17,8 @@
         <value type="int" value="10"/>
         <value type="int" value="12"/>
         <value type="int" value="9"/>
-        <value type="int" value="14"/>
+        <value type="int" value="2"/>
         <value type="int" value="13"/>
-        <value type="int" value="5"/>
-        <value type="int" value="7"/>
         <value type="int" value="4"/>
       </property>
       <property name="length" type="uint" value="100"/>
@@ -48,16 +45,7 @@
         </property>
       </property>
     </property>
-    <property name="plugin-2" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
     <property name="plugin-3" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-4" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-5" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-6" type="string" value="launcher">
@@ -65,27 +53,10 @@
         <value type="string" value="16089735131.desktop"/>
       </property>
     </property>
-    <property name="plugin-7" type="string" value="actions">
-      <property name="appearance" type="uint" value="0"/>
-      <property name="items" type="array">
-        <value type="string" value="-lock-screen"/>
-        <value type="string" value="-switch-user"/>
-        <value type="string" value="-separator"/>
-        <value type="string" value="-suspend"/>
-        <value type="string" value="-hibernate"/>
-        <value type="string" value="-hybrid-sleep"/>
-        <value type="string" value="-separator"/>
-        <value type="string" value="-shutdown"/>
-        <value type="string" value="-restart"/>
-        <value type="string" value="-separator"/>
-        <value type="string" value="+logout"/>
-        <value type="string" value="-logout-dialog"/>
-      </property>
-    </property>
     <property name="plugin-8" type="string" value="notification-plugin"/>
     <property name="plugin-9" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance10013;chromium.instance1003;chromium.instance1030;chromium.instance1065;chromium.instance1091;chromium.instance1268;chromium.instance1402;chromium.instance1485;chromium.instance1517;chromium.instance16396;chromium.instance1813;chromium.instance19131;chromium.instance30996;chromium.instance48479;chromium.instance64225;chromium.instance762;chromium.instance782;chromium.instance798;chromium.instance799;chromium.instance808;chromium.instance811;chromium.instance816;chromium.instance837;chromium.instance859;chromium.instance865;chromium.instance895;chromium.instance915;chromium.instance9170;Gwenview;Gwenview.instance28530;Gwenview.instance5795;rhythmbox"/>
+      <property name="mpris-players" type="string" value="chromium.instance10013;chromium.instance1003;chromium.instance1030;chromium.instance1065;chromium.instance1091;chromium.instance116480;chromium.instance1268;chromium.instance1273;chromium.instance1402;chromium.instance1485;chromium.instance1517;chromium.instance16396;chromium.instance1813;chromium.instance19131;chromium.instance30996;chromium.instance48479;chromium.instance64225;chromium.instance762;chromium.instance782;chromium.instance798;chromium.instance799;chromium.instance808;chromium.instance811;chromium.instance816;chromium.instance837;chromium.instance859;chromium.instance865;chromium.instance895;chromium.instance915;chromium.instance9170;Gwenview;Gwenview.instance28530;Gwenview.instance5795;rhythmbox"/>
     </property>
     <property name="plugin-10" type="string" value="systray">
       <property name="known-legacy-items" type="array">
@@ -96,6 +67,7 @@
         <value type="string" value="networkmanager programcığı"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="steam"/>
         <value type="string" value="droidcam"/>
         <value type="string" value="synapse"/>
         <value type="string" value="Green Recorder"/>
@@ -125,9 +97,14 @@
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-13" type="string" value="clock"/>
-    <property name="plugin-14" type="string" value="launcher">
+    <property name="plugin-4" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="16089814701.desktop"/>
+        <value type="string" value="16104942301.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-2" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16105140521.desktop"/>
       </property>
     </property>
   </property>
