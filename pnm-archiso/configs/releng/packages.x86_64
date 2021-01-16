@@ -42,18 +42,17 @@ irssi
 iwd
 jfsutils
 kitty-terminfo
+lftp
 linux
 linux-atm
 linux-firmware
 livecd-sounds
 lsscsi
-pnmlinuxrepo/lsb-release
 lvm2
 lynx
 man-db
 man-pages
 mc
-neofetch
 mdadm
 memtest86+
 mkinitcpio
@@ -96,6 +95,7 @@ tmux
 udftools
 usb_modeswitch
 usbutils
+vim
 vpnc
 wireless-regdb
 wireless_tools
@@ -104,25 +104,85 @@ wvdial
 xfsprogs
 xl2tpd
 zsh
-wget
-os-prober
-cryptsetup
-virtualbox-guest-utils
-linux-headers
-tk
+ 
+###<---$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$--->
+ 
+###17gInstaller[Ali Riza ve Muhammed Efe'ye saygılarımla]###
+17g-live-installer
+python-pillow
+python-pyparted
 grub
 
-###<---
+###<---$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$--->
 
-###Xorg Paketleri###
-xorg-server
-xcompmgr
-xorg-apps
-xorg-xinit
+###[appmenu]###
+vala-panel-appmenu-registrar-git
+vala-panel-appmenu-xfce-git
+vala-panel-appmenu-common-git
+appmenu-gtk-module
 
-###<---
+###<---$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$--->
 
-###Video Sürücüleri###
+###[apps]###
+xarchiver
+mugshot
+chromium
+rhythmbox
+galculator
+gparted
+thunderbird
+pamac-aur
+libreoffice-still
+libreoffice-still-tr
+python
+git
+yay
+guvcview
+vlc
+
+###<---$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$--->
+
+###Display Manager[PNM deposu(LightDM)]##
+lightdm
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+accountsservice
+
+###<---$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$--->
+
+###UserInterface(Xfce)###
+xfce4
+xfce4-goodies
+nautilus
+libnautilus-extension
+plank
+synapse
+panther-launcher-git
+
+###<---$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$--->
+
+###Network Sürücüleri###
+nss-mdns
+mobile-broadband-provider-info
+modemmanager
+networkmanager
+network-manager-applet
+networkmanager-openconnect
+ntp
+openresolv
+
+###<---$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$--->
+
+###Bluetooth Drivers###
+blueberry
+bluez
+bluez-libs
+bluez-utils
+pulseaudio-bluetooth
+
+###<---$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$--->
+
+###Video Driver###
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-libinput
@@ -137,12 +197,10 @@ xf86-video-nouveau
 xf86-video-openchrome
 xf86-video-vesa
 xf86-video-vmware
-mesa
-pamac-aur
 
-###<---
+###<---$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$--->
 
-###Ses Sürücüleri###
+###Audio Drivers###
 alsa-firmware
 alsa-plugins
 alsa-lib
@@ -157,124 +215,21 @@ libdvdcss
 pulseaudio
 pulseaudio-alsa
 pavucontrol
-volumeicon
 
-###<---
+###<---$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$--->
 
-###Bluetooth Sürücüleri###
-blueberry
-bluez
-bluez-libs
-bluez-utils
-pulseaudio-bluetooth
+###Xorg Packages###
+xorg-server
+xcompmgr
+xorg-apps
+xorg-xinit
 
-###<---
+###<---$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$--->
 
-###Network Sürücüleri###
-avahi
-nss-mdns
-mobile-broadband-provider-info
-modemmanager
-networkmanager
-network-manager-applet
-networkmanager-openconnect
-networkmanager-openvpn
-networkmanager-pptp
-networkmanager-vpnc
-ntp
-openresolv
+###Fonts####
+noto-fonts-emoji 
 
-###<---
+###<---$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$--->
 
-###Masaüstü Araçaları(Xfce)###
-xfce4
-xfce4-goodies
-libnautilus-extension
-xdg-user-dirs
-plank
-mugshot
-xarchiver
-synapse
-appmenu-gtk-module
-python
-nautilus
-
-###<---
-
-###Uygulamalar###
-gnome-boxes
-libreoffice-still
-firefox
-code
-filezilla
-evince
-chromium
-libreoffice-still-tr
-youtube-dl
-hardinfo
-rhythmbox
-epdfview
-htop
-hwinfo
-baobab
-file-roller
-simple-scan
-libwnck3
-feh
-flashplugin
-galculator
-gimp
-inkscape
-gmrun
-gsimplecal
-guvcview
-gtop
-yay
-hddtemp
-imagemagick
-inkscape
-lshw
-numlockx
-grsync
-variety
-gnome-disk-utility
-gnome-keyring
-gnome-software-packagekit-plugin
-gparted
-thunderbird
-ntfs-3g
-
-###<---
-
-###Yazı Fontları###
-#noto-fonts-emoji 
-
-###Display Manager (LightDM)##
-lightdm
-lightdm-webkit2-theme-glorious
-lightdm-webkit2-greeter
-
-###<---
-
-###Canlı Yükleyici[TeArch'a saygılarımla]###
-17g-live-installer
-python-pillow
-python-pyparted
-
-###<---
- 
-###valapanel[PNM deposu]###
-vala-panel-appmenu-registrar-git
-vala-panel-appmenu-xfce-git
-vala-panel-appmenu-common-git
-panther-launcher-git
-
-###<---
-
-###Oyun Ve Emulator###
-steam
-lutris
-wine-staging
-winetricks
-discord
-
+###Customize###
+pnmlinuxrepo/lsb-release
