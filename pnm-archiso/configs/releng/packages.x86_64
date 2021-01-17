@@ -135,6 +135,7 @@ git
 yay
 guvcview
 vlc
+epdfview
 
 ###<---$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$--->
 
@@ -224,8 +225,25 @@ xorg-xinit
 
 ###Fonts####
 noto-fonts-emoji 
+ttf-dejavu
+ttf-liberation
+ttf-bitstream-vera
+ttf-ubuntu-font-family
+cantarell-fonts
+ttf-croscore
+ttf-carlito
+ttf-caladea
+noto-fonts
+noto-fonts-cjk
+opendesktop-fonts
+ttf-opensans
 
 ###<---$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$--->
 
 ###Customize###
 pnmlinuxrepo/lsb-release
+pnmplankthemes
+pnmicons
+pnmthemes
+#pnmwallpaper
+#pnmconfig

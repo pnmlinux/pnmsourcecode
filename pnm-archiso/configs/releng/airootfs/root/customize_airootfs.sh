@@ -104,27 +104,25 @@ function createLiveUserFunc () {
 }
 
 function LockscreenFunc() {
-#=============#
-# Custom code #
-#=============#
+
+
 cat>/etc/lightdm/lightdm.conf<< EOL
 [LightDM]
 run-directory=/run/lightdm
 
 
 [Seat:*]
-greeter-session=lightdm-webkit2-greeter
+
 session-wrapper=/etc/lightdm/Xsession
 autologin-guest=false
 autologin-user=liveuser
 autologin-user-timeout=0
+greeter-session = lightdm-gtk-greeter
+greeter-show-manual-login=false
 greeter-hide-users=true
 allow-guest=false
 user-session=xfce
-greeter-show-manual-login=false
-
 [XDMCPServer]
-
 [VNCServer]
 
 
@@ -133,24 +131,13 @@ EOL
 }
 
 function lightdmThemingFunc() {
-#=============#
-# Custom code #
-#=============#
+
+
 cat>/etc/lightdm/lightdm-webkit2-greeter.conf<< EOL
 [greeter]
-debug_mode          = false
-detect_theme_errors = true
-screensaver_timeout = 300
-secure_mode         = true
-time_format         = LT
-time_language       = auto
-webkit_theme        = glorious
-
-[branding]
-background_images = /usr/share/backgrounds/pnmwallpaper/PNMwall2.jpg
-logo              = /usr/share/pixmaps/archlinux-logo.svg
-user_image        = /usr/share/pixmaps/archlinux-user.svg
-
+theme-name= WhiteSur-light
+icon-theme-name= WhiteSur-icon
+background=/usr/share/backgrounds/pnmwallpaper/sarah-dorweiler.jpg
 
 
 
