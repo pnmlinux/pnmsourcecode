@@ -10,9 +10,7 @@ bind-tools
 brltty
 broadcom-wl
 btrfs-progs
-clonezilla
 crda
-darkhttpd
 ddrescue
 dhclient
 dhcpcd
@@ -67,9 +65,7 @@ nilfs-utils
 nmap
 ntfs-3g
 nvme-cli
-openconnect
 openssh
-openvpn
 partclone
 parted
 partimage
