@@ -5,5 +5,11 @@
     <property name="show-tray-icon" type="bool" value="false"/>
     <property name="brightness-step-count" type="uint" value="12"/>
     <property name="inactivity-on-ac" type="uint" value="30"/>
+    <property name="brightness-switch-restore-on-exit" type="int" value="-1"/>
+    <property name="brightness-switch" type="int" value="0"/>
+    <property name="brightness-on-battery" type="uint" value="9"/>
+    <property name="blank-on-battery" type="int" value="9"/>
+    <property name="dpms-on-battery-sleep" type="uint" value="10"/>
+    <property name="dpms-on-battery-off" type="uint" value="11"/>
   </property>
 </channel>

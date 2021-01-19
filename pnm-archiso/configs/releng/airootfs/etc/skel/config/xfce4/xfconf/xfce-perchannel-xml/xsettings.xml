@@ -3,7 +3,7 @@
 <channel name="xsettings" version="1.0">
   <property name="Net" type="empty">
     <property name="ThemeName" type="string" value="WhiteSur-light"/>
-    <property name="IconThemeName" type="string" value="WhiteSur-icon"/>
+    <property name="IconThemeName" type="string" value="WhiteSur-light"/>
     <property name="DoubleClickTime" type="empty"/>
     <property name="DoubleClickDistance" type="empty"/>
     <property name="DndDragThreshold" type="empty"/>
@@ -32,7 +32,7 @@
     <property name="MenuImages" type="bool" value="true"/>
     <property name="ButtonImages" type="bool" value="true"/>
     <property name="MenuBarAccel" type="empty"/>
-    <property name="CursorThemeName" type="string" value="McMojave-cursors"/>
+    <property name="CursorThemeName" type="string" value="WhiteSur-cursors"/>
     <property name="CursorThemeSize" type="int" value="20"/>
     <property name="DecorationLayout" type="string" value="close,minimize,maximize:"/>
     <property name="DialogsUseHeader" type="empty"/>
