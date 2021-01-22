@@ -80,7 +80,6 @@ sdparm
 sg3_utils
 smartmontools
 squashfs-tools
-sudo
 syslinux
 systemd-resolvconf
 tcpdump
@@ -100,6 +99,7 @@ wvdial
 xfsprogs
 xl2tpd
 zsh
+base-devel
  
 ###<---$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$--->
  
@@ -136,6 +136,7 @@ yay
 guvcview
 vlc
 epdfview
+xscreensaver 
 
 ###<---$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$--->
 
