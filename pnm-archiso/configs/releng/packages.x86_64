@@ -135,8 +135,8 @@ git
 yay
 guvcview
 vlc
-epdfview
-xscreensaver 
+epdfview 
+oblogout
 
 ###<---$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$--->
 
@@ -246,5 +246,5 @@ pnmlinuxrepo/lsb-release
 pnmplankthemes
 pnmicons
 pnmthemes
-#pnmwallpaper
+pnmwallpaper
 #pnmconfig
