@@ -145,6 +145,39 @@ position = 40%,end 68%,end
 EOL
 }
 
+function oblogoutThemeFunc {
+
+cat>/etc/oblogout.conf<< EOL
+[settings]
+usehal = false
+
+[looks]
+opacity = 30
+bgcolor = black
+buttontheme = adeos-branco
+buttons = cancel, logout, restart, shutdown, suspend, hibernate, lock
+
+[shortcuts]
+cancel = Escape
+shutdown = S
+restart = R
+suspend = U
+logout = L
+lock = K
+hibernate = H
+
+[commands]
+shutdown = systemctl poweroff
+restart = systemctl reboot
+suspend = systemctl suspend
+hibernate = systemctl hibernate
+logout = openbox --exit
+lock = xtrlock &
+
+EOL 
+}
+
+
 function setDefaultsFunc() {
     export _EDITOR=nano
     echo "EDITOR=${_EDITOR}" >> /etc/environment
@@ -247,6 +280,6 @@ layout initkeysFunc
 getNewMirrorCleanAndUpgrade
 layout getNewMirrorCleanAndUpgrade
 renameOSFunc
-
+oblogoutThemeFunc
 
 
