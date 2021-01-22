@@ -133,11 +133,12 @@ EOL
 function lightdmThemingFunc() {
 
 
-cat>/etc/lightdm/lightdm-webkit2-greeter.conf<< EOL
+cat>/etc/lightdm/lightdm-gtk-greeter.conf<< EOL
 [greeter]
-theme-name= WhiteSur-light
-icon-theme-name= WhiteSur-icon
-background=/usr/share/backgrounds/pnmwallpaper/sarah-dorweiler.jpg
+theme-name = WhiteSur-light
+icon-theme-name = WhiteSur-icon
+indicators = ~~pnmlinux;~spacer;~clock;~spacer;~language;~session;~a11y;~power
+position = 40%,end 68%,end
 
 
 
