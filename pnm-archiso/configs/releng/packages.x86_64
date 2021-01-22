@@ -98,7 +98,7 @@ wpa_supplicant
 wvdial
 xfsprogs
 xl2tpd
-zsh
+bash
 base-devel
  
 ###<---$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$--->

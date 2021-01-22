@@ -281,5 +281,5 @@ getNewMirrorCleanAndUpgrade
 layout getNewMirrorCleanAndUpgrade
 renameOSFunc
 oblogoutThemeFunc
-
+layout oblogoutThemeFunc
 
