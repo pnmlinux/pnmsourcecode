@@ -1,0 +1,8 @@
+app=/usr/bin/chromium
+last_user=
+screenshot_dir=file:///home/suleyman/Resimler
+action=2
+delay=0
+region=3
+show_mouse=1
+
