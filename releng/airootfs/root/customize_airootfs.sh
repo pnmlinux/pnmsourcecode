@@ -211,6 +211,14 @@ function getNewMirrorCleanAndUpgrade() {
     pacman -Syyu --noconfirm
 }
 
+function deleteprograms () {
+
+    pacman -Rsn parole 
+    pacman -Rsn xfburn
+
+}
+
+
 deleteXfceWallpapers
 layout deleteXfceWallpapers
 changeMkinitcpioHook
@@ -248,4 +256,7 @@ layout initkeysFunc
 getNewMirrorCleanAndUpgrade
 layout getNewMirrorCleanAndUpgrade
 renameOSFunc
+deleteprograms
+layout deleteprograms
+
 

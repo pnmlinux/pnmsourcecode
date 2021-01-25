@@ -96,6 +96,9 @@ wpa_supplicant
 wvdial
 xfsprogs
 xl2tpd
+
+###<---$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$--->
+
 bash
 base-devel
 virtualbox-guest-utils
@@ -144,6 +147,7 @@ accountsservice
 ###<---$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$--->
 
 ###UserInterface(Xfce)###
+
 xfce4
 xfce4-goodies
 nautilus
