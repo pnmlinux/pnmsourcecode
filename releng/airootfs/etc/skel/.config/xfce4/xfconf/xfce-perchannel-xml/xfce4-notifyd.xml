@@ -7,6 +7,7 @@
       <value type="string" value="chromium"/>
       <value type="string" value="discord"/>
       <value type="string" value="nm-applet"/>
+      <value type="string" value="notify-send"/>
       <value type="string" value="org.manjaro.pamac.installer"/>
       <value type="string" value="org.manjaro.pamac.manager"/>
       <value type="string" value="Paket Yöneticisi"/>
