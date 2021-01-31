@@ -134,11 +134,14 @@ function lightdmThemingFunc() {
 
 
 cat>/etc/lightdm/lightdm-gtk-greeter.conf<< EOL
+
 [greeter]
 theme-name = WhiteSur-light
 icon-theme-name = WhiteSur-icon
-indicators = ~~pnmlinux;~spacer;~clock;~spacer;~language;~session;~a11y;~power
+indicators = ~~pnmlinux;~spacer;~clock;~spacer;~session;~a11y;~power
 position = 40%,end 68%,end
+background = /usr/share/backgrounds/pnmwallpaper/davisuko.jpg
+
 
 
 
@@ -213,18 +216,8 @@ function getNewMirrorCleanAndUpgrade() {
 
 function deleteprograms () {
 
-    pacman -Rsn parole 
-    pacman -Rsn xfburn
-
-}
-
-function linuxpresetfix () {
-
-[ $UID != 0 ] && { echo "run it as root privs" ; exit 1 ;}
-
-for i in $( seq 1 "$(ls /boot/ | grep "$(uname -r)" | wc -l)" ) ; do
-    cp "/boot/$(ls /boot/ | grep "$(uname -r)" |  awk "NR==${i}")" "/boot/$(ls /boot/ | grep "$(uname -r)" | sed "s/$(uname -r)/linux/g" | awk "NR==${i}")"
-done
+    pacman -Rsn parole --noconfirm  
+    pacman -Rsn xfburn  --noconfirm
 
 }
 
@@ -268,5 +261,5 @@ layout getNewMirrorCleanAndUpgrade
 renameOSFunc
 deleteprograms
 layout deleteprograms
-linuxpresetfix
-layout linuxpresetfix
+
+
