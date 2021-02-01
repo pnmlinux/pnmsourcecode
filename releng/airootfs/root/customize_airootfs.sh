@@ -213,8 +213,8 @@ function getNewMirrorCleanAndUpgrade() {
 
 function deleteprograms () {
 
-    pacman -Rsn parole 
-    pacman -Rsn xfburn
+    pacman -Rsn parole  --noconfirm
+    pacman -Rsn xfburn  --noconfirm
 
 }
 
