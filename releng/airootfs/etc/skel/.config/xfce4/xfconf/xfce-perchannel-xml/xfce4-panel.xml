@@ -7,7 +7,7 @@
     <property name="dark-mode" type="bool" value="false"/>
     <property name="panel-2" type="empty">
       <property name="position" type="string" value="p=6;x=720;y=15"/>
-      <property name="size" type="uint" value="28"/>
+      <property name="size" type="uint" value="24"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="5"/>
         <value type="int" value="6"/>
