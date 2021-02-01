@@ -14,7 +14,7 @@
     <property name="EnableInputFeedbackSounds" type="bool" value="false"/>
   </property>
   <property name="Xft" type="empty">
-    <property name="DPI" type="int" value="101"/>
+    <property name="DPI" type="int" value="96"/>
     <property name="Antialias" type="int" value="1"/>
     <property name="Hinting" type="int" value="1"/>
     <property name="HintStyle" type="string" value="hintfull"/>
@@ -44,6 +44,6 @@
     <property name="WindowScalingFactor" type="empty"/>
   </property>
   <property name="Xfce" type="empty">
-    <property name="LastCustomDPI" type="int" value="101"/>
+    <property name="LastCustomDPI" type="int" value="96"/>
   </property>
 </channel>

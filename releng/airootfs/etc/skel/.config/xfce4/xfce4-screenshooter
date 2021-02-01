@@ -1,6 +1,6 @@
 app=/usr/bin/chromium
 last_user=
-screenshot_dir=file:/home/pnm/pnmlogo/screenshot
+screenshot_dir=file:///home/pnm/Pictures
 action=1
 delay=12
 region=1
