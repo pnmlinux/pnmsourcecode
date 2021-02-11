@@ -7,7 +7,7 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/backgrounds/pnmwallpaper/wil-stewart.jpg"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/pnmwallpaper/davisuko-2FdIvx7sy3U-unsplash.jpg"/>
           <property name="backdrop-cycle-enable" type="bool" value="true"/>
         </property>
       </property>
@@ -15,7 +15,7 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/backgrounds/pnmwallpaper/wil-stewart.jpg"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/pnmwallpaper/davisuko-2FdIvx7sy3U-unsplash.jpg"/>
           <property name="backdrop-cycle-enable" type="bool" value="true"/>
         </property>
       </property>
@@ -23,7 +23,7 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/backgrounds/pnmwallpaper/davisuko.jpg"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/pnmwallpaper/davisuko-2FdIvx7sy3U-unsplash.jpg"/>
           <property name="backdrop-cycle-enable" type="bool" value="false"/>
         </property>
       </property>
@@ -31,14 +31,14 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/backgrounds/pnmwallpaper/wil-stewart.jpg"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/pnmwallpaper/davisuko-2FdIvx7sy3U-unsplash.jpg"/>
         </property>
       </property>
       <property name="monitorLVDS1" type="empty">
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/backgrounds/pnmwallpaper/wil-stewart.jpg"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/pnmwallpaper/davisuko-2FdIvx7sy3U-unsplash.jpg"/>
         </property>
       </property>
     </property>

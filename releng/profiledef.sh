@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="PNMLinux"
+iso_name="PNMOS[Light Version]"
 iso_label="PNM_$(date +%Y%m)"
 iso_publisher="PNM Linux <https://suleymanfatih.github.io/>"
 iso_application="PNM Live/Rescue CD"
-iso_version="V.1.4"
+iso_version="v1.0."
 install_dir="pnm"
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito' 'uefi-x64.systemd-boot.esp' 'uefi-x64.systemd-boot.eltorito')
 arch="x86_64"

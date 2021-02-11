@@ -17,9 +17,9 @@ count=0
 function layout() {
     count=$[count+1]
     echo
-    echo "##########################################################"
+    echo ">£$>!'+!'+!£$>£$>£½$>²%+!'%!'½$>£$>£½$>£#⅜!'^%'^%'!3½$>£#½£>#!'+!'+1>£½>£½"
     tput setaf 1;echo $count. " Function " $1 "has been installed";tput sgr0
-    echo "##########################################################"
+    echo ">£$>!'+!'+!£$>£$>£½$>²%+!'%!'½$>£$>£½$>£#⅜!'^%'^%'!3½$>£#½£>#!'+!'+1>£½>£½"
     echo
 }
 
@@ -139,9 +139,9 @@ cat>/etc/lightdm/lightdm-gtk-greeter.conf<< EOL
 theme-name = WhiteSur-light
 icon-theme-name = WhiteSur-icon
 indicators = ~~pnmlinux;~spacer;~clock;~spacer;~session;~a11y;~power
-position = 40%,end 68%,end
-background = /usr/share/backgrounds/pnmwallpaper/davisuko.jpg
-
+position = 24%,center 45%,center
+font-name = System-ui Bold 10
+background = /usr/share/backgrounds/pnmwallpaper/nasa-NuE8Nu3otjo-unsplash.jpg
 
 
 
@@ -215,26 +215,22 @@ function getNewMirrorCleanAndUpgrade() {
 }
 
 function deleteprograms () {
-
-<<<<<<< HEAD
-    pacman -Rsn parole  --noconfirm
-    pacman -Rsn xfburn  --noconfirm
+ 
+    pacman -Rsn xfburn --noconfirm
 
 }
 
-function linuxpresetfix () {
+function kernelfailfix () {
 
 [ $UID != 0 ] && { echo "run it as root privs" ; exit 1 ;}
 
 for i in $( seq 1 "$(ls /boot/ | grep "$(uname -r)" | wc -l)" ) ; do
     cp "/boot/$(ls /boot/ | grep "$(uname -r)" |  awk "NR==${i}")" "/boot/$(ls /boot/ | grep "$(uname -r)" | sed "s/$(uname -r)/linux/g" | awk "NR==${i}")"
 done
-=======
-    pacman -Rsn parole --noconfirm  
-    pacman -Rsn xfburn  --noconfirm
->>>>>>> efbb49594056c79108569a850b88d890a65ddd1c
+mkinitcpio -p linux && grub-mkconfig -o /boot/grub/grub.cfg 
 
 }
+
 
 
 deleteXfceWallpapers
@@ -276,5 +272,5 @@ layout getNewMirrorCleanAndUpgrade
 renameOSFunc
 deleteprograms
 layout deleteprograms
-
-
+kernelfailfix
+layout kernelfailfix
