@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="PNMOS[Light Version]"
+iso_name="PNMOS"
 iso_label="PNM_$(date +%Y%m)"
 iso_publisher="PNM Linux <https://suleymanfatih.github.io/>"
 iso_application="PNM Live/Rescue CD"

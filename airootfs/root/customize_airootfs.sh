@@ -17,9 +17,9 @@ count=0
 function layout() {
     count=$[count+1]
     echo
-    echo ">£$>!'+!'+!£$>£$>£½$>²%+!'%!'½$>£$>£½$>£#⅜!'^%'^%'!3½$>£#½£>#!'+!'+1>£½>£½"
+    echo "¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦"
     tput setaf 1;echo $count. " Function " $1 "has been installed";tput sgr0
-    echo ">£$>!'+!'+!£$>£$>£½$>²%+!'%!'½$>£$>£½$>£#⅜!'^%'^%'!3½$>£#½£>#!'+!'+1>£½>£½"
+    echo "¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦"
     echo
 }
 
@@ -30,7 +30,7 @@ function deleteXfceWallpapers() {
 function changeMkinitcpioHook() {
     cp -rf /usr/share/mkinitcpio/hook.preset /etc/mkinitcpio.d/linux.preset
     sed -i 's?%PKGBASE%?linux?' /etc/mkinitcpio.d/linux.preset
-    
+
     cp -rf /etc/mkinitcpio-default.conf /etc/mkinitcpio.conf
 }
 
@@ -46,7 +46,7 @@ function renameOSFunc() {
     echo 'ANSI_COLOR="0;31"' >> $osReleasePath
     echo 'HOME_URL="https://suleymanfatih.github.io"' >> $osReleasePath
     echo 'DOCUMENTATION_URL="https://suleymanfatih.github.io"' >> $osReleasePath
-    echo 'LOGO=pnmlinux' >> $osReleasePath
+    echo 'LOGO=/usr/share/icons/PNMlogopanth.png/' >> $osReleasePath
 
     arch=`uname -m`
     cat > "/etc/issue" <<- EOL
@@ -215,23 +215,27 @@ function getNewMirrorCleanAndUpgrade() {
 }
 
 function deleteprograms () {
- 
+
     pacman -Rsn xfburn --noconfirm
 
 }
 
-function kernelfailfix () {
 
-[ $UID != 0 ] && { echo "run it as root privs" ; exit 1 ;}
+function updategrubconfig () {
 
-for i in $( seq 1 "$(ls /boot/ | grep "$(uname -r)" | wc -l)" ) ; do
-    cp "/boot/$(ls /boot/ | grep "$(uname -r)" |  awk "NR==${i}")" "/boot/$(ls /boot/ | grep "$(uname -r)" | sed "s/$(uname -r)/linux/g" | awk "NR==${i}")"
-done
-mkinitcpio -p linux && grub-mkconfig -o /boot/grub/grub.cfg 
+  if has_command update-grub; then
+    update-grub
+  elif has_command grub-mkconfig; then
+    grub-mkconfig -o /boot/grub/grub.cfg
+  elif has_command grub2-mkconfig; then
+    if has_command zypper; then
+      grub2-mkconfig -o /boot/grub2/grub.cfg
+    elif has_command dnf; then
+      grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+    fi
+  fi
 
 }
-
-
 
 deleteXfceWallpapers
 layout deleteXfceWallpapers
@@ -272,5 +276,5 @@ layout getNewMirrorCleanAndUpgrade
 renameOSFunc
 deleteprograms
 layout deleteprograms
-kernelfailfix
-layout kernelfailfix
+updategrubconfig
+layout updategrubconfig
