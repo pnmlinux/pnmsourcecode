@@ -27,7 +27,7 @@ git commit -m "$input"
 
 # Push the local files to github
 
-git push -u
+git push
 
 
 echo "################################################################"
