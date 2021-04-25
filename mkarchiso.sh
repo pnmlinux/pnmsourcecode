@@ -40,7 +40,7 @@ airootfs_image_tool_options=('-comp' 'xz')
 declare -A file_permissions=()
 
 
-# Show an INFO message
+# Show an INFO messagee
 # $1: message string
 _msg_info() {
     local _msg="${1}"
