@@ -83,7 +83,6 @@ syslinux
 systemd-resolvconf
 tcpdump
 terminus-font
-termite-terminfo
 testdisk
 tmux
 udftools
@@ -132,7 +131,7 @@ rhythmbox
 galculator
 gparted
 thunderbird
-pamac-aur
+pamac-all
 python
 git
 yay
