@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=xfce4-session-logout
+Icon=go-previous
+StartupNotify=false
+Terminal=false
+Categories=System;X-XFCE;X-Xfce-Toplevel;
+OnlyShowIn=XFCE;
+Name=Log Out
+Name[tr]=Çıkış
+Comment=Log out of the Xfce Desktop
+Comment[tr]=Xfce Masaüstünden çık
+X-XFCE-Source=file:///usr/share/applications/xfce4-session-logout.desktop
+Path=

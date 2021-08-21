@@ -236,7 +236,14 @@ function updategrubconfig () {
   fi
 
 }
+function varlibpacmanconf () {
 
+	sudo rm -rf /var/lib/pacman/sync/*
+	sudo pacman -Syyu
+}
+
+varlibpacmanconf
+layout varlibpacmanconf
 deleteXfceWallpapers
 layout deleteXfceWallpapers
 changeMkinitcpioHook
