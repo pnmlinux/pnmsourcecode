@@ -1,2 +1,2 @@
 # pnmsourcecode
-pnm source code repository
+pnm archiso

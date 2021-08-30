@@ -236,10 +236,11 @@ function updategrubconfig () {
   fi
 
 }
+
 function varlibpacmanconf () {
 
-	sudo rm -rf /var/lib/pacman/sync/*
-	sudo pacman -Syyu
+	 rm -rf /var/lib/pacman/sync/*
+	 pacman -Syyu
 }
 
 varlibpacmanconf

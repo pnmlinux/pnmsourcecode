@@ -135,7 +135,8 @@ pamac-all
 python
 git
 yay
-vim
+emacs
+gimp
 
 ###<---$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$--->
 
@@ -229,6 +230,11 @@ noto-fonts
 noto-fonts-cjk
 opendesktop-fonts
 ttf-opensans
+ttf-caladea
+ttf-carlito
+ttf-dejavu
+ttf-linux-libertine-g
+noto-fonts
 
 ###<---$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$--->
 
