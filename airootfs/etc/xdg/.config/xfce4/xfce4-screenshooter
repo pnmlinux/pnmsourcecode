@@ -1,8 +1,0 @@
-app=/usr/bin/chromium
-last_user=
-screenshot_dir=file:///home/pnm/Pictures
-action=1
-delay=12
-region=1
-show_mouse=0
-

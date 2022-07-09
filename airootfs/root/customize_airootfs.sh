@@ -91,16 +91,16 @@ function configRootUserFunc() {
 }
 
 function createLiveUserFunc () {
-	# add liveuser
-	useradd -m liveuser -u 500 -g users -G "adm,audio,floppy,log,network,rfkill,scanner,storage,optical,power,wheel" -s /bin/bash
-	chown -R liveuser:users /home/liveuser
-	passwd -d liveuser
+	# add pnmlive
+	useradd -m pnmlive -u 500 -g users -G "adm,audio,floppy,log,network,rfkill,scanner,storage,optical,power,wheel" -s /bin/bash
+	chown -R pnmlive:users /home/pnmlive
+	passwd -d pnmlive
 	# enable autologin
 	groupadd -r autologin
-	gpasswd -a liveuser autologin
+	gpasswd -a pnmlive autologin
 	groupadd -r nopasswdlogin
-	gpasswd -a liveuser nopasswdlogin
-	echo "The account liveuser with no password has been created"
+	gpasswd -a pnmlive nopasswdlogin
+	echo "The account pnmlive with no password has been created"
 }
 
 function LockscreenFunc() {
@@ -115,7 +115,7 @@ run-directory=/run/lightdm
 
 session-wrapper=/etc/lightdm/Xsession
 autologin-guest=false
-autologin-user=liveuser
+autologin-user=pnmlive
 autologin-user-timeout=0
 greeter-session = lightdm-gtk-greeter
 greeter-show-manual-login=false

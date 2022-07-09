@@ -5,11 +5,15 @@ iso_name="PNMOS"
 iso_label="PNM_$(date +%Y%m)"
 iso_publisher="PNM Linux <https://suleymanfatih.github.io/>"
 iso_application="PNM Live/Rescue CD"
-iso_version="v1.2."
+iso_version="v1.4."
 install_dir="pnm"
-bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito' 'uefi-x64.systemd-boot.esp' 'uefi-x64.systemd-boot.eltorito')
+buildmodes=('iso')
+bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito'
+           'uefi-ia32.grub.esp' 'uefi-x64.grub.esp'
+           'uefi-ia32.grub.eltorito' 'uefi-x64.grub.eltorito')
 arch="x86_64"
 pacman_conf="pacman.conf"
+airootfs_image_type="squashfs"
 airootfs_image_tool_options=('-comp' 'xz' '-Xbcj' 'x86' '-b' '1M' '-Xdict-size' '1M')
 file_permissions=(
   ["/etc/shadow"]="0:0:400"

@@ -1,4 +1,5 @@
-WebBrowser=chromium
+WebBrowser=firefox
 FileManager=nautilus
 TerminalEmulator=xfce4-terminal
+MailReader=thunderbird
 

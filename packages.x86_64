@@ -95,6 +95,15 @@ wpa_supplicant
 wvdial
 xfsprogs
 xl2tpd
+e2fsprogs
+findutils
+gzip
+libarchive
+libisoburn
+openssl
+pacman
+sed
+
 
 ###<---$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$--->
 
@@ -126,7 +135,7 @@ appmenu-gtk-module
 ###[apps]###
 xarchiver
 mugshot
-chromium
+firefox
 rhythmbox
 galculator
 gparted
@@ -135,8 +144,15 @@ pamac-all
 python
 git
 yay
-emacs
-gimp
+supertuxkart
+vim
+webapp-manager
+vim-plug
+python-pyflakes
+neofetch
+vim-colors-solarized-git
+firefox-user-autoconfig
+
 
 ###<---$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$--->
 
@@ -153,9 +169,11 @@ xfce4
 xfce4-goodies
 nautilus
 libnautilus-extension
+nautilus-image-converter
 plank
 synapse
 panther-launcher-git
+nautilus-open-any-terminal
 
 ###<---$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$--->
 
@@ -235,14 +253,16 @@ ttf-carlito
 ttf-dejavu
 ttf-linux-libertine-g
 noto-fonts
+nerd-fonts-hack
 
 ###<---$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$--->
 
 ###Customize###
-pnmrepository/lsb-release
+lsb-release
 pnmplankthemes
 pnmicons
 pnmthemes
 pnmwallpaper
 pnmgrubtheme
+pnmmirrorlist
 #pnmconfig

@@ -10,6 +10,7 @@
       <value type="string" value="notify-send"/>
       <value type="string" value="org.manjaro.pamac.installer"/>
       <value type="string" value="org.manjaro.pamac.manager"/>
+      <value type="string" value="org.manjaro.pamac.tray"/>
       <value type="string" value="Paket Yöneticisi"/>
       <value type="string" value="Xfce volume control"/>
       <value type="string" value="xfce4-settings-helper"/>

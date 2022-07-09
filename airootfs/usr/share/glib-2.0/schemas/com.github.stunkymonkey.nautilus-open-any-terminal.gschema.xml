@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="nautilus-open-any-terminal">
+  <schema id="com.github.stunkymonkey.nautilus-open-any-terminal" path="/com/github/stunkymonkey/nautilus-open-any-terminal/">
+    <key name="keybindings" type="s">
+      <default>'&lt;Ctrl&gt;&lt;Alt&gt;t'</default>
+      <summary>Keyboard shortcut used in Nautilus for Open Here extension</summary>
+      <description></description>
+    </key>
+    <key name="terminal" type="s">
+      <default>'xfce4-terminal'</default>
+      <summary>Terminal used in Nautilus for Open Here extension</summary>
+      <description></description>
+    </key>
+    <key name="new-tab" type="b">
+      <default>false</default>
+      <summary>Whether the new terminal should be oppened in a new tab or in a new window</summary>
+      <description></description>
+    </key>
+  </schema>
+</schemalist>

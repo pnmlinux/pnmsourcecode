@@ -14,6 +14,10 @@
         <value type="int" value="3"/>
         <value type="int" value="1"/>
         <value type="int" value="11"/>
+        <value type="int" value="14"/>
+        <value type="int" value="16"/>
+        <value type="int" value="7"/>
+        <value type="int" value="15"/>
         <value type="int" value="8"/>
         <value type="int" value="10"/>
         <value type="int" value="12"/>
@@ -58,10 +62,16 @@
     <property name="plugin-8" type="string" value="notification-plugin"/>
     <property name="plugin-9" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance10013;chromium.instance1003;chromium.instance1030;chromium.instance1065;chromium.instance1091;chromium.instance116480;chromium.instance1268;chromium.instance1273;chromium.instance1402;chromium.instance1485;chromium.instance1517;chromium.instance16396;chromium.instance1813;chromium.instance19131;chromium.instance30996;chromium.instance48479;chromium.instance64225;chromium.instance762;chromium.instance782;chromium.instance798;chromium.instance799;chromium.instance808;chromium.instance811;chromium.instance816;chromium.instance837;chromium.instance859;chromium.instance865;chromium.instance895;chromium.instance915;chromium.instance9170;Gwenview;Gwenview.instance28530;Gwenview.instance5795;rhythmbox"/>
+      <property name="mpris-players" type="string" value="chromium.instance10013;chromium.instance1003;chromium.instance1030;chromium.instance1065;chromium.instance1091;chromium.instance116480;chromium.instance1268;chromium.instance1273;chromium.instance1402;chromium.instance1485;chromium.instance1517;chromium.instance1542;chromium.instance16396;chromium.instance1813;chromium.instance19131;chromium.instance2351;chromium.instance30996;chromium.instance3183;chromium.instance42352;chromium.instance48479;chromium.instance64225;chromium.instance762;chromium.instance7759;chromium.instance782;chromium.instance798;chromium.instance799;chromium.instance808;chromium.instance811;chromium.instance816;chromium.instance837;chromium.instance859;chromium.instance865;chromium.instance895;chromium.instance915;chromium.instance9170;chromium.instance99156;firefox.instance10045;firefox.instance1015;firefox.instance1231;firefox.instance1256;firefox.instance1267;firefox.instance1286;firefox.instance1311;firefox.instance1355;firefox.instance1364;firefox.instance1368;firefox.instance1381;firefox.instance1399;firefox.instance1407;firefox.instance1435;firefox.instance1437;firefox.instance1464;firefox.instance1503;firefox.instance1623;firefox.instance1627;firefox.instance1681;firefox.instance1715;firefox.instance1717;firefox.instance1863;firefox.instance1948;firefox.instance2126;firefox.instance25259;firefox.instance3163;firefox.instance52720;firefox.instance55407;firefox.instance5862;firefox.instance76450;firefox.instance7867;firefox.instance798;firefox.instance966;Gwenview;Gwenview.instance28530;Gwenview.instance5795;rhythmbox;spotify;vlc"/>
     </property>
     <property name="plugin-10" type="string" value="systray">
       <property name="known-legacy-items" type="array">
+        <value type="string" value="“denizlihorozu” kablosuz ağ bağlantısı etkin: denizlihorozu (%60)"/>
+        <value type="string" value="“denizlihorozu” kablosuz ağ bağlantısı etkin: denizlihorozu (%56)"/>
+        <value type="string" value="“denizlihorozu” kablosuz ağ bağlantısı etkin: denizlihorozu (%53)"/>
+        <value type="string" value="“denizlihorozu” kablosuz ağ bağlantısı etkin: denizlihorozu (%50)"/>
+        <value type="string" value="“denizlihorozu” kablosuz ağ bağlantısı etkin: denizlihorozu (%55)"/>
+        <value type="string" value="blueberry-tray.py"/>
         <value type="string" value="networkmanager applet"/>
         <value type="string" value="anydesk"/>
         <value type="string" value="thunar"/>
@@ -70,6 +80,8 @@
         <value type="string" value="networkmanager programcığı"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="vlc"/>
+        <value type="string" value="obs"/>
         <value type="string" value="steam"/>
         <value type="string" value="droidcam"/>
         <value type="string" value="synapse"/>
@@ -111,6 +123,51 @@
       </property>
     </property>
     <property name="plugin-5" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-7" type="string" value="power-manager-plugin"/>
+    <property name="plugin-14" type="string" value="weather">
+      <property name="location" type="empty">
+        <property name="name" type="string" value="Denizli, Ege Bölgesi"/>
+        <property name="latitude" type="string" value="37.827589"/>
+        <property name="longitude" type="string" value="29.238954"/>
+      </property>
+      <property name="msl" type="int" value="380"/>
+      <property name="timezone" type="string" value="Europe/Istanbul"/>
+      <property name="offset" type="string" value="+03:00"/>
+      <property name="cache-max-age" type="int" value="172800"/>
+      <property name="power-saving" type="bool" value="true"/>
+      <property name="units" type="empty">
+        <property name="temperature" type="int" value="0"/>
+        <property name="pressure" type="int" value="0"/>
+        <property name="windspeed" type="int" value="0"/>
+        <property name="precipitation" type="int" value="0"/>
+        <property name="altitude" type="int" value="0"/>
+        <property name="apparent-temperature" type="int" value="0"/>
+      </property>
+      <property name="round" type="bool" value="true"/>
+      <property name="single-row" type="bool" value="true"/>
+      <property name="tooltip-style" type="int" value="1"/>
+      <property name="forecast" type="empty">
+        <property name="layout" type="int" value="1"/>
+        <property name="days" type="int" value="5"/>
+      </property>
+      <property name="theme-dir" type="string" value="/usr/share/xfce4/weather/icons/simplistic"/>
+      <property name="scrollbox" type="empty">
+        <property name="show" type="bool" value="true"/>
+        <property name="animate" type="bool" value="true"/>
+        <property name="lines" type="int" value="1"/>
+        <property name="color" type="string" value="rgba(0,0,0,0)"/>
+        <property name="use-color" type="bool" value="false"/>
+      </property>
+      <property name="labels" type="empty">
+        <property name="label0" type="int" value="3"/>
+      </property>
+    </property>
+    <property name="plugin-15" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-16" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
   </property>
